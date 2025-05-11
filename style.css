@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff;
+    color: #222;
+}
+.hero {
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+}
+.hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.6);
+}
+section {
+    padding: 3em 1em;
+    text-align: center;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.timer {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+.timeline {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+.event {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+.event img {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 0.5em;
+}
+.rsvp {
+    background: #f7f7f7;
+    padding: 3em 1em;
+}
+.rsvp form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.rsvp input, .rsvp select {
+    padding: 0.8em;
+    width: 100%;
+    font-size: 1em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+.rsvp button {
+    padding: 0.8em 2em;
+    background: #222;
+    color: white;
+    border: none;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 2em 1em;
+    font-size: 0.9em;
+    background: #eee;
+}
+.decor {
+    max-width: 100px;
+    margin: 2em auto;
+    opacity: 0.3;
+}
